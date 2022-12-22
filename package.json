@@ -1,0 +1,41 @@
+{
+  "name": "medium-lite",
+  "version": "1.0.0",
+  "description": "A simple backend analogue of the Medium service",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulhay777/medium-lite.git"
+  },
+  "keywords": [
+    "js",
+    "nodejs",
+    "express",
+    "sqlite"
+  ],
+  "author": "Abdulhay <abdulhay.777.2020@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulhay777/medium-lite/issues"
+  },
+  "homepage": "https://github.com/abdulhay777/medium-lite#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "config": "^3.3.8",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "sqlite3": "^5.1.4",
+    "utils": "^0.3.1"
+  }
+}
